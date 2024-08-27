@@ -17,13 +17,12 @@
     }
 
     &__links {
-        margin-bottom: 26px;
+        margin-bottom: 16px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-
         justify-content: center;
-
+        
         &__item {
             display: inline-block;
 
@@ -32,7 +31,7 @@
                 padding: 8px 16px;
                 display: block;
 
-                &__hover {
+                &:hover {
                     color: variaveis.$corTextoSecundario;
                 }
             }
@@ -44,7 +43,7 @@
     }
 }
 
-.linguage-selector {
+.language-selector {
     display: flex;
     align-items: center;
 
